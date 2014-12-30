@@ -72,10 +72,10 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     singleRun: true,
 
-    browserDisconnectTimeout: 30 * 1000, // 30 s
-    browserDisconnectTolerance: 0,
-    browserNoActivityTimeout: 30 * 1000, // 30 s
-    captureTimeout: 2 * 60 * 1000, // 2 min
+    browserDisconnectTimeout: 30 * 60 * 1000, // 30 min
+    browserDisconnectTolerance: 2,
+    browserNoActivityTimeout: 10 * 60 * 1000, // 10 min
+    captureTimeout: 30 * 60 * 1000, // 30 min
 
     browsers: Object.keys(customLaunchers),
     sauceLabs: {
