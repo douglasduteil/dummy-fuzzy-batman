@@ -1,0 +1,29 @@
+{
+  "name": "dummy-fuzzy-batman",
+  "version": "1.0.0",
+  "description": "Dummy example for gesalakacula with saucelabs + karma + mocha + chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf-ci.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douglasduteil/dummy-fuzzy-batman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasduteil/dummy-fuzzy-batman/issues"
+  },
+  "homepage": "https://github.com/douglasduteil/dummy-fuzzy-batman",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gesalakacula": "^1.0.0",
+    "karma": "^0.12.28",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sauce-launcher": "^0.2.10",
+    "mocha": "^2.1.0"
+  }
+}
