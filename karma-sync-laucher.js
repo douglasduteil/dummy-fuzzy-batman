@@ -20,7 +20,7 @@ var customLaunchers = geSaLaKaCuLa({
   'OS X 10.6': {
     'ipad': '4.3, 5.0',
     'iphone': '4.3, 5.0',
-    'chrome': '27..39,beta,dev',
+    'chrome': '27..28,31..39,beta,dev',
     'firefox': '4..34,beta,dev',
     'safari': '5'
   },
@@ -70,6 +70,20 @@ var customLaunchers = geSaLaKaCuLa({
 
 var browsers = Object.keys(customLaunchers);
 
+// Limitation : Free Travis account
+// Travis can't run a job longer than an hour.
+//
+// Limitation : Open source Saucelab account
+// Saucelab run only 3 tests in parallel.
+//
+// The average duration of a test is ~1m30s
+// In a hour Travis <-> Saucelab can run ~100 tests in browsers
+//
+// I decide to pick only 100 tests randomly for this dummy test !
+
+browsers = shuffle(browsers);
+browsers.splice(100);
+
 function launchRecursiveKarma(startIndex) {
 
   if (!browsers.length) return;
@@ -97,3 +111,13 @@ function launchRecursiveKarma(startIndex) {
 }
 
 launchRecursiveKarma();
+
+
+////
+
+//+ Jonas Raoni Soares Silva
+//@ http://jsfromhell.com/array/shuffle [v1.0]
+function shuffle(o){ //v1.0
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
