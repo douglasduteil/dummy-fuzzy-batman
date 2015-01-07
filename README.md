@@ -1,5 +1,5 @@
 # dummy-fuzzy-batman
-[![Build Status][travis-image]][travis-url] [![Sauce Test Status][saucelabs-image]][saucelabs-url]<-
+[![Build Status][travis-image]][travis-url] [![Sauce Test Status][saucelabs-image]][saucelabs-url]
 
 Dummy example for [gesalakacula](https://www.npmjs.com/package/gesalakacula) with saucelabs + karma + mocha + chai
 
