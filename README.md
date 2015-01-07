@@ -5,6 +5,18 @@ Dummy example for [gesalakacula](https://www.npmjs.com/package/gesalakacula) wit
 
 [![Sauce Test Status][saucelabs-browser-matrix-image]][saucelabs-url]
 
+## Note to make it work
+
+I'm directly setting the [environment variables via the repository settings pane ](http://blog.travis-ci.com/2014-08-22-environment-variables/) like :
+
+![setting](https://cloud.githubusercontent.com/assets/730511/5653347/b5bcdd74-96b9-11e4-964e-069af070f3c9.png)
+
+With `SAUCE_USERNAME` your user name (here suuerivera for https://saucelabs.com/u/suuerivera) and `SAUCE_ACCESS_KEY` your user access key given by sauce lab : 
+
+![sauce-access-key](https://cloud.githubusercontent.com/assets/730511/5653465/b43a41f2-96ba-11e4-9a37-786e0f6514b3.png)
+
+
+
 [travis-url]: https://travis-ci.org/douglasduteil/dummy-fuzzy-batman
 [travis-image]: https://travis-ci.org/douglasduteil/dummy-fuzzy-batman.svg?branch=master
 [saucelabs-url]: https://saucelabs.com/u/suuerivera
