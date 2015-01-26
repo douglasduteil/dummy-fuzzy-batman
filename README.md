@@ -11,7 +11,7 @@ I'm directly setting the [environment variables via the repository settings pane
 
 ![setting](https://cloud.githubusercontent.com/assets/730511/5653347/b5bcdd74-96b9-11e4-964e-069af070f3c9.png)
 
-With `SAUCE_USERNAME` your user name (here suuerivera for https://saucelabs.com/u/suuerivera) and `SAUCE_ACCESS_KEY` your user access key given by sauce lab : 
+With `SAUCE_USERNAME` your user name (here `dummy-fuzzy-batman` for https://saucelabs.com/u/dummy-fuzzy-batman) and `SAUCE_ACCESS_KEY` your user access key given by sauce lab : 
 
 ![sauce-access-key](https://cloud.githubusercontent.com/assets/730511/5653465/b43a41f2-96ba-11e4-9a37-786e0f6514b3.png)
 
@@ -19,6 +19,6 @@ With `SAUCE_USERNAME` your user name (here suuerivera for https://saucelabs.com/
 
 [travis-url]: https://travis-ci.org/douglasduteil/dummy-fuzzy-batman
 [travis-image]: https://travis-ci.org/douglasduteil/dummy-fuzzy-batman.svg?branch=master
-[saucelabs-url]: https://saucelabs.com/u/suuerivera
-[saucelabs-image]: https://saucelabs.com/buildstatus/suuerivera
-[saucelabs-browser-matrix-image]: https://saucelabs.com/browser-matrix/suuerivera.svg
+[saucelabs-url]: https://saucelabs.com/u/dummy-fuzzy-batman
+[saucelabs-image]: https://saucelabs.com/buildstatus/dummy-fuzzy-batman
+[saucelabs-browser-matrix-image]: https://saucelabs.com/browser-matrix/dummy-fuzzy-batman.svg
