@@ -112,7 +112,7 @@ if (options.reKaLa){
     // I decide to pick only 100 tests randomly for this dummy test !
     if (options.travis){
         customLaunchers = shuffle(Object.keys(customLaunchers))
-            .slice(0, 4)
+            .slice(0, 100)
             .reduce(function(memo, browsersName){
                 memo[browsersName] = customLaunchers[browsersName];
                 return memo;
